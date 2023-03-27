@@ -15,8 +15,8 @@ try {
 	ResultSet rs = pstmt.executeQuery();
 
 	while (rs.next()) {
-// 		out.println("<h3>" + rs.getInt(1) + "," + rs.getString(2) + "</h3>");
-		out.println("<h3>" + rs.getInt(num) + "," + rs.getString(name) + "</h3>");
+ 		out.println("<h3>" + rs.getInt(1) + "," + rs.getString(2) + "</h3>");
+// 		out.println("<h3>" + rs.getInt(num) + "," + rs.getString(name) + "</h3>");
 	}
 	rs.close();
 
